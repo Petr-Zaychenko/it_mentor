@@ -23,10 +23,10 @@ class Concatenation(Calculator):
 b = Concatenation()
 
 res = b.positive('hello ',20)
-print(res)
+print(res, type(res))
 
 res2 = b.positive(10, 20)
-print(res2)
+print(res2, type(res2))
 
 res3 = b.positive('Hello ', ' You!')
-print(res3)
+print(res3, type(res3))

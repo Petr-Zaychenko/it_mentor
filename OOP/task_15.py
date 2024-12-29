@@ -50,7 +50,7 @@ pirs1.get_first_name = 'Igor'
 
 pirs2 = Logi_changes('Tuzik', 'Lebedev', 'Moskow')
 pirs2.get_first_name = 'Rubinshern'
-pirs2.get_city = ('Ufa')
+pirs2.get_city = 'Ufa'
 
 print(pirs1.__dict__)
 print(pirs2.__dict__)
